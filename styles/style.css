@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+ @import url('https://fonts.cdnfonts.com/css/miama');
+                
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -15,6 +17,28 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+}
+.btn-primary{
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+    color:white;
+    padding:10px 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width:180px;
+
+}
+.btn-secondary{
+    background:none;
+    border-radius: 42px;
+    color:white;
+    padding:10px 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid white;
+    width:180px;
+    margin-left: 15px;
 }
 
 /* navbar styles */
@@ -41,7 +65,7 @@ body{
 }
 .brand{
     color: rgb(230, 83, 60);
-font-size: 36px;
+font-size: 2rem;
 font-weight: 800;
 font-style: italic;
 }
@@ -66,9 +90,69 @@ height: 46px;
 /* banner styles */
 .banner{
     display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width:520px;
 }
 .banner-title{
     color: rgb(255, 255, 255);
 font-size: 70px;
+font-weight: 900;
+
+}
+#shape{
+    font-family: 'Miama', sans-serif;
+    font-style: italic;
+}
+.banner-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255,0.5);
+}
+.banner-btn{
+    width: 206px;
+height: 90px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+color: rgba(239, 237, 232, 0.65);
+font-size: 1rem;
+font-weight: 400;
+display: flex;
+justify-content: space-around;
+margin-left: -100px;
+    margin-top: -150px;
+    padding: 20px 10px;
+    align-items: center;
+}
+.video-no{
+    color:white;
+    font-size: 24px;
+font-weight: 900;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.banner-btn2{
+    width: 206px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -500px;
+    
+}
+.video-no2{
+    color: rgb(255, 255, 255);
+font-size: 40px;
 font-weight: 900;
 }
