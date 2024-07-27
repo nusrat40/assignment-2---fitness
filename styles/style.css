@@ -27,6 +27,7 @@ body{
     font-weight: 600;
     border: none;
     width:180px;
+    margin-top: 20px;
 
 }
 .btn-secondary{
@@ -39,6 +40,11 @@ body{
     border: 1px solid white;
     width:180px;
     margin-left: 15px;
+    margin-top: 20px;
+}
+header{
+    width: 1200px;
+margin: 0 auto;
 }
 
 /* navbar styles */
@@ -63,6 +69,10 @@ body{
     color: white;
     font-size: 18px;
 }
+.menu-bar{
+    display: none;
+} 
+
 .brand{
     color: rgb(230, 83, 60);
 font-size: 2rem;
@@ -99,16 +109,20 @@ height: 46px;
     color: rgb(255, 255, 255);
 font-size: 70px;
 font-weight: 900;
+margin-bottom: 0px;
+line-height:75px;
 
 }
 #shape{
     font-family: 'Miama', sans-serif;
     font-style: italic;
+    font-weight: 400;
 }
 .banner-des{
     font-size: 1rem;
     font-weight: 400;
     color:rgba(255, 255, 255,0.5);
+    margin-top: 40px;
 }
 .banner-btn{
     width: 206px;
@@ -139,7 +153,7 @@ font-weight: 900;
     background-color: red;
 }
 .banner-btn2{
-    width: 206px;
+    width:180px;
     height: 90px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -147,12 +161,164 @@ font-weight: 900;
     background: rgba(48, 48, 48, 0.54);
     color: rgba(239, 237, 232, 0.65);
     font-size: 14px;
-    font-weight: 400;
-    margin-top: -500px;
+    position: relative;
+    bottom:390px;
+    left:200px;
     
 }
 .video-no2{
     color: rgb(255, 255, 255);
 font-size: 40px;
 font-weight: 900;
+}
+
+/* main styles */
+main > section{
+    margin-top: 120px;
+}
+.section-title{
+    color:white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.section-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 20px;
+   
+}
+
+/* habit section */
+.habits{
+    width: 1044px;
+height: 500px;
+margin: 0 auto;
+}
+.habit-info{
+    text-align: center;
+}
+.habit-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.habit-cards img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.card-title{
+    color:white;
+    font-size: 1rem;
+font-weight: 600;
+}
+.card-des{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+}
+.card{
+    text-align: center;
+}
+
+/* run-section */
+.run{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+height: 350px;
+margin: 0 auto;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+padding:40px 50px 50px 40px;
+}
+.run-pic{
+    width: 366px;
+height: 312px;
+border-radius: 18px;
+
+}
+
+/* calculator-section */
+.cal-info{
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction:row;
+        justify-content:left;
+        gap:150px;
+        /* align-items: flex-start; */
+    }
+    .menu-bar{
+        display: block;
+        
+    }
+    .brand{
+        margin-left: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+      
+    }
+    .banner-title{
+        font-size: 36px;
+        line-height: 120%;
+        text-align: left;
+        width: 285px;
+        margin-left: 20px;
+    }
+    .banner-des{
+        width: 274px;
+        height: 96px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .btn-primary, .btn-secondary{
+        width:160px;
+        margin-top: 5px;
+        height:50px;
+    }
+    .btn-primary{
+        margin-left: 20px;
+    }
+    .banner-btn{
+        
+        width: 155px;
+        height: 75px;
+        position: relative;
+        left: 120px;
+        bottom: 170px;
+        font-size: 13px;
+    }
+    .circle{
+        height: 35px;
+        width: 35px;
+    }
+    .video-no{
+        font-size:20px;
+    }
+    .banner-btn2{
+        width: 145px;
+        height: 75px;
+        margin-top: -100px;
+        font-size: 14px;
+    }
+    .video-no2{
+        font-size: 30px;
+    }
 }
