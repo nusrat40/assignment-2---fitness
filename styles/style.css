@@ -234,10 +234,20 @@ border-radius: 18px;
 background: rgb(34, 34, 34);
 padding:40px 50px 50px 40px;
 }
+
+.run .section-des{
+    width: 443px;
+    height: 72px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
 .run-pic{
     width: 366px;
 height: 312px;
 border-radius: 18px;
+object-fit:none;
+object-position: 65% 33%;
 
 }
 
@@ -325,6 +335,7 @@ border-radius: 18px;
     .habits{
         width:340px;
         margin-bottom: 50px;
+        
     }
     .section-title{
         font-size: 2rem;
@@ -339,4 +350,28 @@ border-radius: 18px;
     .card{
         margin-bottom: 30px;
     }
+    .run{
+        flex-direction: column;
+        width: 300px;
+        height: 520px;
+        margin-left: 20px;
+        
+    }
+    .run-pic{
+        width: 290px;
+        height: 190px;
+        object-fit:fill;
+        
+        
+    }
+    .run .section-des{
+        width: 287px;
+        height: 96px;
+    }
+    .run .btn-primary{
+         width:280px;
+         margin-left: -10px;
+    }
+   
+   
 }
