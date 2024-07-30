@@ -78,7 +78,7 @@ margin: 0 auto;
 .brand{
     color: rgb(230, 83, 60);
 font-size: 2rem;
-font-weight: 800;
+font-weight: 900;
 font-style: italic;
 }
 .nav-btn{
@@ -350,7 +350,7 @@ table, th, td {
     margin: 0 auto;
   }
   .team-cards{
-    width: 1060px;
+    width: 1050px;
     height: 604px;
     border-radius: 18px;
     margin:0 auto;
@@ -380,6 +380,75 @@ table, th, td {
     margin-top:-20px;
     margin-left: 10px;
      
+  }
+  .team-card{
+     margin-left: 10px;
+  }
+
+  /* footer section */
+
+ footer{
+    width:100%;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top:70px;
+ }
+
+  .footer-part{
+    display: flex;
+    padding:65px 170px 100px 190px;
+
+  }
+  .footer-info{
+    width: 430px;
+    height: 200px;
+    text-align: left;
+    margin-right: 130px;
+  }
+  
+  .footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  .footer-list{
+    width:250px;
+    margin-right: 150px;
+    
+  }
+  .list-title{
+    color:white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .footer-item{
+    list-style: none;
+    margin-left: -35px;
+    margin-bottom: 10px;
+  }
+  .footer-item a{
+    text-decoration: none;
+    color:white;
+    opacity: 0.5;
+    font-size: 20px;
+    
+  }
+  .copywrite{
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+    width:1060px;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+  }
+  #copy{
+    color:white;
+    opacity: 0.5;
+    font-size: 1rem;
+    text-align: center;
   }
 
 
@@ -544,6 +613,20 @@ table, th, td {
     }
     .team-name, .team-job{
         margin-left: 30px;
+     }
+     .footer-part{
+        flex-direction: column;
+        padding:40px 50px 70px 20px;
+        
+     }
+     .footer-title{
+        font-size: 60px;
+     }
+     .footer-info{
+        width:310px;
+     }
+     .copywrite{
+        width:355px;
      }
    
 }
