@@ -15,7 +15,7 @@
     background-color: black;
 }
 body{
-    /* max-width: 1440px; */
+
     margin: 0 auto;
     
 }
@@ -266,7 +266,6 @@ object-position: 65% 33%;
 }
 
 .calculate{
-    width:100%;
     height: 430px;
     background: rgb(34, 34, 34);
     margin-top: 30px;
@@ -503,13 +502,8 @@ text-align: center;
 
 
 
-
-
-
-
-
-
 @media screen and (max-width: 576px){
+
     .navbar{
         flex-direction:row;
         justify-content:left;
@@ -519,7 +513,9 @@ text-align: center;
     .menu-bar{
         display: block;
         
+        
     }
+
     .brand{
         margin-left: 20px;
     }
@@ -622,8 +618,7 @@ text-align: center;
     }
     .calculate{
         flex-direction: column;
-        width:100%;
-        height: 750px;
+        height: 700px;
         margin-top: 20px;
         gap:10px;
         padding-top: 10px;
@@ -642,6 +637,7 @@ text-align: center;
     .form .btn-primary{
          width:220px;
          margin-left: -3px;
+         margin-top: 20px;
     }
     .team-info{
         width:300px;
