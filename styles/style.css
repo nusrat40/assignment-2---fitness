@@ -365,6 +365,7 @@ table, th, td {
     object-fit: cover;
     border-radius: 18px;
     
+    
   }
   .team-name{
      font-size: 18px;
@@ -510,10 +511,21 @@ text-align: center;
         gap:200px;
         
     }
+   
     .menu-bar{
         display: block;
+        width: 18px;
+        display: grid;
+        margin-left: 20px;
         
         
+    }
+    .menu{
+        border: 1px solid white;
+        border-radius: 8px;
+        background-color: white;
+        margin-bottom: 2px;
+
     }
 
     .brand{
@@ -644,7 +656,7 @@ text-align: center;
     }
     .team-cards{
         width: 330px;
-        height:1750px;
+        height:1150px;
         grid-template-columns: repeat(1,1fr);
     
     }
@@ -656,6 +668,18 @@ text-align: center;
     }
     .team-name, .team-job{
         margin-left: 30px;
+     }
+     #trainer1,#trainer4{
+        display:none;
+     }
+     #trainer5{
+        order:1;
+     }
+     #trainer3{
+        order:2;
+     }
+     #trainer6{
+        order:3;
      }
      .footer-part{
         flex-direction: column;
